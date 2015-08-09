@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6DF15B1B77F7C90061C7A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF15A1B77F7C90061C7A0 /* main.m */; };
+		CD6DF15E1B77F7C90061C7A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF15D1B77F7C90061C7A0 /* AppDelegate.m */; };
+		CD6DF1611B77F7C90061C7A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1601B77F7C90061C7A0 /* ViewController.m */; };
+		CD6DF1641B77F7C90061C7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1621B77F7C90061C7A0 /* Main.storyboard */; };
+		CD6DF1661B77F7C90061C7A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1651B77F7C90061C7A0 /* Images.xcassets */; };
+		CD6DF1691B77F7C90061C7A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1671B77F7C90061C7A0 /* LaunchScreen.xib */; };
+		CD6DF1751B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1741B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6DF16F1B77F7CA0061C7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6DF14D1B77F7C90061C7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6DF1541B77F7C90061C7A0;
+			remoteInfo = BloodSugarSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6DF1551B77F7C90061C7A0 /* BloodSugarSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodSugarSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6DF1591B77F7C90061C7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6DF15A1B77F7C90061C7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6DF15C1B77F7C90061C7A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD6DF15D1B77F7C90061C7A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6DF15F1B77F7C90061C7A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD6DF1601B77F7C90061C7A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD6DF1631B77F7C90061C7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6DF1651B77F7C90061C7A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD6DF1681B77F7C90061C7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD6DF16E1B77F7CA0061C7A0 /* BloodSugarSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodSugarSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6DF1731B77F7CA0061C7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6DF1741B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodSugarSimulatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6DF1521B77F7C90061C7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DF16B1B77F7CA0061C7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6DF14C1B77F7C90061C7A0 = {
+			isa = PBXGroup;
+			children = (
+				CD6DF1571B77F7C90061C7A0 /* BloodSugarSimulator */,
+				CD6DF1711B77F7CA0061C7A0 /* BloodSugarSimulatorTests */,
+				CD6DF1561B77F7C90061C7A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6DF1561B77F7C90061C7A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF1551B77F7C90061C7A0 /* BloodSugarSimulator.app */,
+				CD6DF16E1B77F7CA0061C7A0 /* BloodSugarSimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6DF1571B77F7C90061C7A0 /* BloodSugarSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF15C1B77F7C90061C7A0 /* AppDelegate.h */,
+				CD6DF15D1B77F7C90061C7A0 /* AppDelegate.m */,
+				CD6DF15F1B77F7C90061C7A0 /* ViewController.h */,
+				CD6DF1601B77F7C90061C7A0 /* ViewController.m */,
+				CD6DF1621B77F7C90061C7A0 /* Main.storyboard */,
+				CD6DF1651B77F7C90061C7A0 /* Images.xcassets */,
+				CD6DF1671B77F7C90061C7A0 /* LaunchScreen.xib */,
+				CD6DF1581B77F7C90061C7A0 /* Supporting Files */,
+			);
+			path = BloodSugarSimulator;
+			sourceTree = "<group>";
+		};
+		CD6DF1581B77F7C90061C7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF1591B77F7C90061C7A0 /* Info.plist */,
+				CD6DF15A1B77F7C90061C7A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6DF1711B77F7CA0061C7A0 /* BloodSugarSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF1741B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m */,
+				CD6DF1721B77F7CA0061C7A0 /* Supporting Files */,
+			);
+			path = BloodSugarSimulatorTests;
+			sourceTree = "<group>";
+		};
+		CD6DF1721B77F7CA0061C7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF1731B77F7CA0061C7A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6DF1541B77F7C90061C7A0 /* BloodSugarSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6DF1781B77F7CA0061C7A0 /* Build configuration list for PBXNativeTarget "BloodSugarSimulator" */;
+			buildPhases = (
+				CD6DF1511B77F7C90061C7A0 /* Sources */,
+				CD6DF1521B77F7C90061C7A0 /* Frameworks */,
+				CD6DF1531B77F7C90061C7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodSugarSimulator;
+			productName = BloodSugarSimulator;
+			productReference = CD6DF1551B77F7C90061C7A0 /* BloodSugarSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6DF16D1B77F7CA0061C7A0 /* BloodSugarSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6DF17B1B77F7CA0061C7A0 /* Build configuration list for PBXNativeTarget "BloodSugarSimulatorTests" */;
+			buildPhases = (
+				CD6DF16A1B77F7CA0061C7A0 /* Sources */,
+				CD6DF16B1B77F7CA0061C7A0 /* Frameworks */,
+				CD6DF16C1B77F7CA0061C7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6DF1701B77F7CA0061C7A0 /* PBXTargetDependency */,
+			);
+			name = BloodSugarSimulatorTests;
+			productName = BloodSugarSimulatorTests;
+			productReference = CD6DF16E1B77F7CA0061C7A0 /* BloodSugarSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6DF14D1B77F7C90061C7A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = KK;
+				TargetAttributes = {
+					CD6DF1541B77F7C90061C7A0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CD6DF16D1B77F7CA0061C7A0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CD6DF1541B77F7C90061C7A0;
+					};
+				};
+			};
+			buildConfigurationList = CD6DF1501B77F7C90061C7A0 /* Build configuration list for PBXProject "BloodSugarSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6DF14C1B77F7C90061C7A0;
+			productRefGroup = CD6DF1561B77F7C90061C7A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6DF1541B77F7C90061C7A0 /* BloodSugarSimulator */,
+				CD6DF16D1B77F7CA0061C7A0 /* BloodSugarSimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6DF1531B77F7C90061C7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6DF1641B77F7C90061C7A0 /* Main.storyboard in Resources */,
+				CD6DF1691B77F7C90061C7A0 /* LaunchScreen.xib in Resources */,
+				CD6DF1661B77F7C90061C7A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DF16C1B77F7CA0061C7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6DF1511B77F7C90061C7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6DF1611B77F7C90061C7A0 /* ViewController.m in Sources */,
+				CD6DF15E1B77F7C90061C7A0 /* AppDelegate.m in Sources */,
+				CD6DF15B1B77F7C90061C7A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DF16A1B77F7CA0061C7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6DF1751B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6DF1701B77F7CA0061C7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6DF1541B77F7C90061C7A0 /* BloodSugarSimulator */;
+			targetProxy = CD6DF16F1B77F7CA0061C7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6DF1621B77F7C90061C7A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6DF1631B77F7C90061C7A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6DF1671B77F7C90061C7A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6DF1681B77F7C90061C7A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6DF1761B77F7CA0061C7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6DF1771B77F7CA0061C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6DF1791B77F7CA0061C7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodSugarSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD6DF17A1B77F7CA0061C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodSugarSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD6DF17C1B77F7CA0061C7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BloodSugarSimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodSugarSimulator.app/BloodSugarSimulator";
+			};
+			name = Debug;
+		};
+		CD6DF17D1B77F7CA0061C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BloodSugarSimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodSugarSimulator.app/BloodSugarSimulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6DF1501B77F7C90061C7A0 /* Build configuration list for PBXProject "BloodSugarSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6DF1761B77F7CA0061C7A0 /* Debug */,
+				CD6DF1771B77F7CA0061C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6DF1781B77F7CA0061C7A0 /* Build configuration list for PBXNativeTarget "BloodSugarSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6DF1791B77F7CA0061C7A0 /* Debug */,
+				CD6DF17A1B77F7CA0061C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD6DF17B1B77F7CA0061C7A0 /* Build configuration list for PBXNativeTarget "BloodSugarSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6DF17C1B77F7CA0061C7A0 /* Debug */,
+				CD6DF17D1B77F7CA0061C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6DF14D1B77F7C90061C7A0 /* Project object */;
+}
