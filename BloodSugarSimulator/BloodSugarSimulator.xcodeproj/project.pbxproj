@@ -81,6 +81,9 @@
 		CD6DF1571B77F7C90061C7A0 /* BloodSugarSimulator */ = {
 			isa = PBXGroup;
 			children = (
+				CD6DF17E1B77F8B10061C7A0 /* Models */,
+				CD6DF17F1B77F8BD0061C7A0 /* Views */,
+				CD6DF1801B77F8D00061C7A0 /* Controllers */,
 				CD6DF15C1B77F7C90061C7A0 /* AppDelegate.h */,
 				CD6DF15D1B77F7C90061C7A0 /* AppDelegate.m */,
 				CD6DF15F1B77F7C90061C7A0 /* ViewController.h */,
@@ -117,6 +120,27 @@
 				CD6DF1731B77F7CA0061C7A0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6DF17E1B77F8B10061C7A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD6DF17F1B77F8BD0061C7A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CD6DF1801B77F8D00061C7A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
