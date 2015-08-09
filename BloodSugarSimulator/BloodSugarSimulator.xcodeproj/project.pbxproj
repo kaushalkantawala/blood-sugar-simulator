@@ -14,6 +14,10 @@
 		CD6DF1661B77F7C90061C7A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1651B77F7C90061C7A0 /* Images.xcassets */; };
 		CD6DF1691B77F7C90061C7A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1671B77F7C90061C7A0 /* LaunchScreen.xib */; };
 		CD6DF1751B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1741B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m */; };
+		CD6DF1861B77FEA70061C7A0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1851B77FEA70061C7A0 /* Person.m */; };
+		CD6DF1891B77FF100061C7A0 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1881B77FF100061C7A0 /* Food.m */; };
+		CD6DF18C1B77FF240061C7A0 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF18B1B77FF240061C7A0 /* Exercise.m */; };
+		CD6DF18F1B7802140061C7A0 /* AppDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF18E1B7802140061C7A0 /* AppDefines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		CD6DF16E1B77F7CA0061C7A0 /* BloodSugarSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodSugarSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6DF1731B77F7CA0061C7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6DF1741B77F7CA0061C7A0 /* BloodSugarSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodSugarSimulatorTests.m; sourceTree = "<group>"; };
+		CD6DF1841B77FEA70061C7A0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Models/Person.h; sourceTree = "<group>"; };
+		CD6DF1851B77FEA70061C7A0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Models/Person.m; sourceTree = "<group>"; };
+		CD6DF1871B77FF100061C7A0 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = Models/Food.h; sourceTree = "<group>"; };
+		CD6DF1881B77FF100061C7A0 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Food.m; path = Models/Food.m; sourceTree = "<group>"; };
+		CD6DF18A1B77FF240061C7A0 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exercise.h; path = Models/Exercise.h; sourceTree = "<group>"; };
+		CD6DF18B1B77FF240061C7A0 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Exercise.m; path = Models/Exercise.m; sourceTree = "<group>"; };
+		CD6DF18D1B7802140061C7A0 /* AppDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefines.h; sourceTree = "<group>"; };
+		CD6DF18E1B7802140061C7A0 /* AppDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDefines.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,8 @@
 			children = (
 				CD6DF1591B77F7C90061C7A0 /* Info.plist */,
 				CD6DF15A1B77F7C90061C7A0 /* main.m */,
+				CD6DF18D1B7802140061C7A0 /* AppDefines.h */,
+				CD6DF18E1B7802140061C7A0 /* AppDefines.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,6 +139,12 @@
 		CD6DF17E1B77F8B10061C7A0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CD6DF1841B77FEA70061C7A0 /* Person.h */,
+				CD6DF1851B77FEA70061C7A0 /* Person.m */,
+				CD6DF1871B77FF100061C7A0 /* Food.h */,
+				CD6DF1881B77FF100061C7A0 /* Food.m */,
+				CD6DF18A1B77FF240061C7A0 /* Exercise.h */,
+				CD6DF18B1B77FF240061C7A0 /* Exercise.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -243,8 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6DF1891B77FF100061C7A0 /* Food.m in Sources */,
+				CD6DF18C1B77FF240061C7A0 /* Exercise.m in Sources */,
 				CD6DF1611B77F7C90061C7A0 /* ViewController.m in Sources */,
 				CD6DF15E1B77F7C90061C7A0 /* AppDelegate.m in Sources */,
+				CD6DF18F1B7802140061C7A0 /* AppDefines.m in Sources */,
+				CD6DF1861B77FEA70061C7A0 /* Person.m in Sources */,
 				CD6DF15B1B77F7C90061C7A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
