@@ -18,6 +18,8 @@
 		CD6DF1891B77FF100061C7A0 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1881B77FF100061C7A0 /* Food.m */; };
 		CD6DF18C1B77FF240061C7A0 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF18B1B77FF240061C7A0 /* Exercise.m */; };
 		CD6DF18F1B7802140061C7A0 /* AppDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF18E1B7802140061C7A0 /* AppDefines.m */; };
+		CD6DF1971B7812920061C7A0 /* foodItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1961B7812920061C7A0 /* foodItems.plist */; };
+		CD6DF1991B7813680061C7A0 /* exerciseTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1981B7813680061C7A0 /* exerciseTypes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		CD6DF18B1B77FF240061C7A0 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Exercise.m; path = Models/Exercise.m; sourceTree = "<group>"; };
 		CD6DF18D1B7802140061C7A0 /* AppDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefines.h; sourceTree = "<group>"; };
 		CD6DF18E1B7802140061C7A0 /* AppDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDefines.m; sourceTree = "<group>"; };
+		CD6DF1961B7812920061C7A0 /* foodItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodItems.plist; sourceTree = "<group>"; };
+		CD6DF1981B7813680061C7A0 /* exerciseTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exerciseTypes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		CD6DF1581B77F7C90061C7A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD6DF1981B7813680061C7A0 /* exerciseTypes.plist */,
+				CD6DF1961B7812920061C7A0 /* foodItems.plist */,
 				CD6DF1591B77F7C90061C7A0 /* Info.plist */,
 				CD6DF15A1B77F7C90061C7A0 /* main.m */,
 				CD6DF18D1B7802140061C7A0 /* AppDefines.h */,
@@ -244,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6DF1641B77F7C90061C7A0 /* Main.storyboard in Resources */,
+				CD6DF1991B7813680061C7A0 /* exerciseTypes.plist in Resources */,
 				CD6DF1691B77F7C90061C7A0 /* LaunchScreen.xib in Resources */,
 				CD6DF1661B77F7C90061C7A0 /* Images.xcassets in Resources */,
+				CD6DF1971B7812920061C7A0 /* foodItems.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

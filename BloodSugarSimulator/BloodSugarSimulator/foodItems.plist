@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Banana cake, made with sugar</string>
+		<key>Glycemic Index</key>
+		<string>47</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Banana cake, made without sugar</string>
+		<key>Glycemic Index</key>
+		<string>55</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sponge cake, plain</string>
+		<key>Glycemic Index</key>
+		<string>46</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Vanilla cake made from packet mix with vanilla frosting (Betty Crocker)</string>
+		<key>Glycemic Index</key>
+		<string>42</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Apple, made with sugar</string>
+		<key>Glycemic Index</key>
+		<string>44</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Apple, made without sugar</string>
+		<key>Glycemic Index</key>
+		<string>48</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Waffles, Aunt Jemima (Quaker Oats)</string>
+		<key>Glycemic Index</key>
+		<string>76</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bagel, white, frozen</string>
+		<key>Glycemic Index</key>
+		<string>72</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Baguette, white, plain</string>
+		<key>Glycemic Index</key>
+		<string>95</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Coarse barley bread, 75-80% kernels, average</string>
+		<key>Glycemic Index</key>
+		<string>34</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hamburger bun</string>
+		<key>Glycemic Index</key>
+		<string>61</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Kaiser roll</string>
+		<key>Glycemic Index</key>
+		<string>73</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pumpernickel bread</string>
+		<key>Glycemic Index</key>
+		<string>56</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>50% cracked wheat kernel bread</string>
+		<key>Glycemic Index</key>
+		<string>58</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>White wheat flour bread</string>
+		<key>Glycemic Index</key>
+		<string>71</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wonder™ bread, average</string>
+		<key>Glycemic Index</key>
+		<string>73</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Whole wheat bread, average</string>
+		<key>Glycemic Index</key>
+		<string>71</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>100% Whole Grain™ bread (Natural Ovens)</string>
+		<key>Glycemic Index</key>
+		<string>51</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pita bread, white</string>
+		<key>Glycemic Index</key>
+		<string>68</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Corn tortilla</string>
+		<key>Glycemic Index</key>
+		<string>52</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wheat tortilla</string>
+		<key>Glycemic Index</key>
+		<string>30</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Coca Cola®, average</string>
+		<key>Glycemic Index</key>
+		<string>63</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fanta®, orange soft drink</string>
+		<key>Glycemic Index</key>
+		<string>68</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lucozade®, original (sparkling glucose drink)</string>
+		<key>Glycemic Index</key>
+		<string>95</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Apple juice, unsweetened, average</string>
+		<key>Glycemic Index</key>
+		<string>44</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cranberry juice cocktail (Ocean Spray®)</string>
+		<key>Glycemic Index</key>
+		<string>68</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gatorade</string>
+		<key>Glycemic Index</key>
+		<string>78</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Orange juice, unsweetened</string>
+		<key>Glycemic Index</key>
+		<string>50</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tomato juice, canned</string>
+		<key>Glycemic Index</key>
+		<string>38</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>All-Bran™, average</string>
+		<key>Glycemic Index</key>
+		<string>55</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Coco Pops™, average</string>
+		<key>Glycemic Index</key>
+		<string>77</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cornflakes™, average</string>
+		<key>Glycemic Index</key>
+		<string>93</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cream of Wheat™ (Nabisco)</string>
+		<key>Glycemic Index</key>
+		<string>66</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cream of Wheat™, Instant (Nabisco)</string>
+		<key>Glycemic Index</key>
+		<string>74</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grapenuts™, average</string>
+		<key>Glycemic Index</key>
+		<string>75</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Muesli, average</string>
+		<key>Glycemic Index</key>
+		<string>66</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Oatmeal, average</string>
+		<key>Glycemic Index</key>
+		<string>55</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Instant oatmeal, average</string>
+		<key>Glycemic Index</key>
+		<string>83</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Puffed wheat, average</string>
+		<key>Glycemic Index</key>
+		<string>80</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Raisin Bran™ (Kellogg's)</string>
+		<key>Glycemic Index</key>
+		<string>61</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Special K™ (Kellogg's)</string>
+		<key>Glycemic Index</key>
+		<string>69</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pearled barley, average</string>
+		<key>Glycemic Index</key>
+		<string>28</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sweet corn on the cob, average</string>
+		<key>Glycemic Index</key>
+		<string>60</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Couscous, average</string>
+		<key>Glycemic Index</key>
+		<string>65</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Quinoa</string>
+		<key>Glycemic Index</key>
+		<string>53</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>White rice, average</string>
+		<key>Glycemic Index</key>
+		<string>89</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Quick cooking white basmati</string>
+		<key>Glycemic Index</key>
+		<string>67</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Brown rice, average</string>
+		<key>Glycemic Index</key>
+		<string>50</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Converted, white rice (Uncle Ben's®)</string>
+		<key>Glycemic Index</key>
+		<string>38</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Whole wheat kernels, average</string>
+		<key>Glycemic Index</key>
+		<string>30</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bulgur, average</string>
+		<key>Glycemic Index</key>
+		<string>48</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Graham crackers</string>
+		<key>Glycemic Index</key>
+		<string>74</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Vanilla wafers</string>
+		<key>Glycemic Index</key>
+		<string>77</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shortbread</string>
+		<key>Glycemic Index</key>
+		<string>64</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rice cakes, average</string>
+		<key>Glycemic Index</key>
+		<string>82</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rye crisps, average</string>
+		<key>Glycemic Index</key>
+		<string>64</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Soda crackers</string>
+		<key>Glycemic Index</key>
+		<string>74</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ice cream, regular</string>
+		<key>Glycemic Index</key>
+		<string>57</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ice cream, premium</string>
+		<key>Glycemic Index</key>
+		<string>38</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Milk, full fat</string>
+		<key>Glycemic Index</key>
+		<string>41</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Milk, skim</string>
+		<key>Glycemic Index</key>
+		<string>32</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Reduced-fat yogurt with fruit, average</string>
+		<key>Glycemic Index</key>
+		<string>33</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Apple, average</string>
+		<key>Glycemic Index</key>
+		<string>39</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Banana, ripe</string>
+		<key>Glycemic Index</key>
+		<string>62</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dates, dried</string>
+		<key>Glycemic Index</key>
+		<string>42</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grapefruit</string>
+		<key>Glycemic Index</key>
+		<string>25</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Grapes, average</string>
+		<key>Glycemic Index</key>
+		<string>59</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Orange, average</string>
+		<key>Glycemic Index</key>
+		<string>40</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Peach, average</string>
+		<key>Glycemic Index</key>
+		<string>42</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Peach, canned in light syrup</string>
+		<key>Glycemic Index</key>
+		<string>40</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pear, average</string>
+		<key>Glycemic Index</key>
+		<string>38</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pear, canned in pear juice</string>
+		<key>Glycemic Index</key>
+		<string>43</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Prunes, pitted</string>
+		<key>Glycemic Index</key>
+		<string>29</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Raisins</string>
+		<key>Glycemic Index</key>
+		<string>64</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Watermelon</string>
+		<key>Glycemic Index</key>
+		<string>72</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Baked beans, average</string>
+		<key>Glycemic Index</key>
+		<string>40</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blackeye peas, average</string>
+		<key>Glycemic Index</key>
+		<string>33</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Black beans</string>
+		<key>Glycemic Index</key>
+		<string>30</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chickpeas, average</string>
+		<key>Glycemic Index</key>
+		<string>10</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chickpeas, canned in brine</string>
+		<key>Glycemic Index</key>
+		<string>38</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Navy beans, average</string>
+		<key>Glycemic Index</key>
+		<string>31</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Kidney beans, average</string>
+		<key>Glycemic Index</key>
+		<string>29</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lentils, average</string>
+		<key>Glycemic Index</key>
+		<string>29</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Soy beans, average</string>
+		<key>Glycemic Index</key>
+		<string>15</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cashews, salted</string>
+		<key>Glycemic Index</key>
+		<string>27</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Peanuts, average</string>
+		<key>Glycemic Index</key>
+		<string>7</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fettucini, average</string>
+		<key>Glycemic Index</key>
+		<string>32</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Macaroni, average</string>
+		<key>Glycemic Index</key>
+		<string>47</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Macaroni and Cheese (Kraft)</string>
+		<key>Glycemic Index</key>
+		<string>64</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spaghetti, white, boiled, average</string>
+		<key>Glycemic Index</key>
+		<string>46</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spaghetti, white, boiled 20 min, average</string>
+		<key>Glycemic Index</key>
+		<string>58</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spaghetti, wholemeal, boiled, average</string>
+		<key>Glycemic Index</key>
+		<string>42</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Corn chips, plain, salted, average</string>
+		<key>Glycemic Index</key>
+		<string>42</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fruit Roll-Ups®</string>
+		<key>Glycemic Index</key>
+		<string>99</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>M &amp; M's®, peanut</string>
+		<key>Glycemic Index</key>
+		<string>33</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Microwave popcorn, plain, average</string>
+		<key>Glycemic Index</key>
+		<string>55</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Potato chips, average</string>
+		<key>Glycemic Index</key>
+		<string>51</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pretzels, oven-baked</string>
+		<key>Glycemic Index</key>
+		<string>83</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Snickers Bar®</string>
+		<key>Glycemic Index</key>
+		<string>51</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Carrots, average</string>
+		<key>Glycemic Index</key>
+		<string>35</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Parsnips</string>
+		<key>Glycemic Index</key>
+		<string>52</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Baked russet potato, average</string>
+		<key>Glycemic Index</key>
+		<string>111</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Boiled white potato, average</string>
+		<key>Glycemic Index</key>
+		<string>82</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Instant mashed potato, average</string>
+		<key>Glycemic Index</key>
+		<string>87</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sweet potato, average</string>
+		<key>Glycemic Index</key>
+		<string>70</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Yam, average</string>
+		<key>Glycemic Index</key>
+		<string>54</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Green peas, average</string>
+		<key>Glycemic Index</key>
+		<string>51</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hummus (chickpea salad dip)</string>
+		<key>Glycemic Index</key>
+		<string>6</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chicken nuggets, frozen, reheated in microwave oven 5 min</string>
+		<key>Glycemic Index</key>
+		<string>46</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pizza, plain baked dough, served with parmesan cheese and tomato sauce</string>
+		<key>Glycemic Index</key>
+		<string>80</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pizza, Super Supreme (Pizza Hut)</string>
+		<key>Glycemic Index</key>
+		<string>36</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Honey, average</string>
+		<key>Glycemic Index</key>
+		<string>61</string>
+	</dict>
+</array>
+</plist>

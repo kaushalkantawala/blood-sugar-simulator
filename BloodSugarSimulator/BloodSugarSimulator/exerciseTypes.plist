@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Exercise</key>
+		<string>Crunches</string>
+		<key>Exercise Index</key>
+		<string>20</string>
+	</dict>
+	<dict>
+		<key>Exercise</key>
+		<string>Walking</string>
+		<key>Exercise Index</key>
+		<string>15</string>
+	</dict>
+	<dict>
+		<key>Exercise</key>
+		<string>Running</string>
+		<key>Exercise Index</key>
+		<string>40</string>
+	</dict>
+	<dict>
+		<key>Exercise</key>
+		<string>Sprinting</string>
+		<key>Exercise Index</key>
+		<string>60</string>
+	</dict>
+	<dict>
+		<key>Exercise</key>
+		<string>Squats</string>
+		<key>Exercise Index</key>
+		<string>60</string>
+	</dict>
+	<dict>
+		<key>Exercise</key>
+		<string>Bench press</string>
+		<key>Exercise Index</key>
+		<string>45</string>
+	</dict>
+</array>
+</plist>
