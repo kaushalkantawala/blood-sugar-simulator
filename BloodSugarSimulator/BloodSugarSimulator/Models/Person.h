@@ -13,13 +13,14 @@
 @interface Person : NSObject
 
 @property (nonatomic, readwrite) NSString* name;
-@property (nonatomic, readonly) NSDate* initializationTime;
+@property (nonatomic, assign) NSDate* initializationTime;
 @property (nonatomic, assign) BOOL influenceOfFood;
 @property (nonatomic, assign) BOOL influenceOfExercise;
 @property (nonatomic, readwrite) NSTimer* foodTimer;
 @property (nonatomic, readwrite) NSTimer* exerciseTimer;
 @property (nonatomic, readwrite) NSMutableArray* bloodSugarModifiers;
 
+- (instancetype) initPersonWithName:(NSString *)name atTime:(NSDate *)time;
 - (float) getCurrentBloodSugar:(NSDate *)time;
 - (float) getGlycation:(NSDate *)time;
 - (void) logFood:(Food *)foodItem atTime:(NSDate *)time;

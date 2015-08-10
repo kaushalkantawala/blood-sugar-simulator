@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Person.h"
+#import "LoggingController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self testWithPersonAndModifiers];
+    
     return YES;
 }
 
@@ -40,6 +45,18 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void) testWithPersonAndModifiers
+{
+    Person* p = [[Person alloc] initPersonWithName:@"Kaushal" atTime:[NSDate date]];
+//    [p getCurrentBloodSugar:[NSDate dateWithTimeInterval:600 sinceDate:p.initializationTime]];
+    
+    LoggingController* controller = [[LoggingController alloc] init];
+    [controller loadView];
+    [controller create];
+    
+    [controller logFood:@"Gatorade" atTime:[NSDate dateWithTimeInterval:1200 sinceDate:p.initializationTime] forPerson:p];
 }
 
 @end

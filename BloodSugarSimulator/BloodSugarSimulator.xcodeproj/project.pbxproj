@@ -20,6 +20,9 @@
 		CD6DF18F1B7802140061C7A0 /* AppDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF18E1B7802140061C7A0 /* AppDefines.m */; };
 		CD6DF1971B7812920061C7A0 /* foodItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1961B7812920061C7A0 /* foodItems.plist */; };
 		CD6DF1991B7813680061C7A0 /* exerciseTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1981B7813680061C7A0 /* exerciseTypes.plist */; };
+		CD6DF19C1B7817D60061C7A0 /* BloodSugarModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF19B1B7817D60061C7A0 /* BloodSugarModifier.m */; };
+		CD6DF19F1B7822D20061C7A0 /* LoggingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF19E1B7822D20061C7A0 /* LoggingController.m */; };
+		CD6DF1A21B782EDE0061C7A0 /* LoggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1A11B782EDE0061C7A0 /* LoggingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		CD6DF18E1B7802140061C7A0 /* AppDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDefines.m; sourceTree = "<group>"; };
 		CD6DF1961B7812920061C7A0 /* foodItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodItems.plist; sourceTree = "<group>"; };
 		CD6DF1981B7813680061C7A0 /* exerciseTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exerciseTypes.plist; sourceTree = "<group>"; };
+		CD6DF19A1B7817D60061C7A0 /* BloodSugarModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodSugarModifier.h; path = Models/BloodSugarModifier.h; sourceTree = "<group>"; };
+		CD6DF19B1B7817D60061C7A0 /* BloodSugarModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BloodSugarModifier.m; path = Models/BloodSugarModifier.m; sourceTree = "<group>"; };
+		CD6DF19D1B7822D20061C7A0 /* LoggingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggingController.h; path = Controllers/LoggingController.h; sourceTree = "<group>"; };
+		CD6DF19E1B7822D20061C7A0 /* LoggingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggingController.m; path = Controllers/LoggingController.m; sourceTree = "<group>"; };
+		CD6DF1A01B782EDE0061C7A0 /* LoggingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggingView.h; path = Views/LoggingView.h; sourceTree = "<group>"; };
+		CD6DF1A11B782EDE0061C7A0 /* LoggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggingView.m; path = Views/LoggingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +160,8 @@
 				CD6DF1881B77FF100061C7A0 /* Food.m */,
 				CD6DF18A1B77FF240061C7A0 /* Exercise.h */,
 				CD6DF18B1B77FF240061C7A0 /* Exercise.m */,
+				CD6DF19A1B7817D60061C7A0 /* BloodSugarModifier.h */,
+				CD6DF19B1B7817D60061C7A0 /* BloodSugarModifier.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -158,6 +169,8 @@
 		CD6DF17F1B77F8BD0061C7A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD6DF1A01B782EDE0061C7A0 /* LoggingView.h */,
+				CD6DF1A11B782EDE0061C7A0 /* LoggingView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -165,6 +178,8 @@
 		CD6DF1801B77F8D00061C7A0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD6DF19D1B7822D20061C7A0 /* LoggingController.h */,
+				CD6DF19E1B7822D20061C7A0 /* LoggingController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -271,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6DF1A21B782EDE0061C7A0 /* LoggingView.m in Sources */,
+				CD6DF19F1B7822D20061C7A0 /* LoggingController.m in Sources */,
+				CD6DF19C1B7817D60061C7A0 /* BloodSugarModifier.m in Sources */,
 				CD6DF1891B77FF100061C7A0 /* Food.m in Sources */,
 				CD6DF18C1B77FF240061C7A0 /* Exercise.m in Sources */,
 				CD6DF1611B77F7C90061C7A0 /* ViewController.m in Sources */,

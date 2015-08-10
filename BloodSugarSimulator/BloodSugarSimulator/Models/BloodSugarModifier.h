@@ -1,5 +1,5 @@
 //
-//  Exercise.h
+//  BloodSugarModifier.h
 //  BloodSugarSimulator
 //
 //  Created by Kaushal Kantawala on 8/9/15.
@@ -7,10 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BloodSugarModifier.h"
 
-@interface Exercise : BloodSugarModifier
+@interface BloodSugarModifier : NSObject
 
-@property (nonatomic, readwrite) NSString* exerciseName;
+@property (nonatomic, readwrite) float bloodSugarChangePerMinute;
 
 @end

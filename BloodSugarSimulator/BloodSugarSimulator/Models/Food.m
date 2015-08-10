@@ -7,13 +7,18 @@
 //
 
 #import "Food.h"
+#import "AppDefines.h"
 
 @implementation Food
 
-- (float) getRateOfChangeOfBloodSugarPerMin
+- (instancetype) initWithFoodName:(NSString *)foodName andGlycemicIndex:(float)glycemicIndex
 {
-
-    return 0.0;
+    self = [super init];
+    
+    _foodName = foodName;
+    self.bloodSugarChangePerMinute = glycemicIndex/(MINS_PER_HOUR*2);
+    
+    return self;
 }
 
 @end

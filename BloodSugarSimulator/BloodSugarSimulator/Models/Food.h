@@ -7,14 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BloodSugarModifier.h"
 
-@interface Food : NSObject
-
-
-@property (nonatomic, readonly) NSString* foodName;
-@property (nonatomic, readonly) NSInteger foodGlycemicIndex;
+@interface Food : BloodSugarModifier
 
 
-- (float) getRateOfChangeOfBloodSugarPerMin;
+@property (nonatomic, readwrite) NSString* foodName;
+
+- (instancetype) initWithFoodName:(NSString *)foodName andGlycemicIndex:(float)glycemicIndex;
 
 @end

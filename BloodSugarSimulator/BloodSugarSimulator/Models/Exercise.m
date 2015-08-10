@@ -10,4 +10,9 @@
 
 @implementation Exercise
 
+- (float) bloodSugarChangePerMinForExerciseType:(NSString *)exerciseType
+{
+    return 0.0;
+}
+
 @end

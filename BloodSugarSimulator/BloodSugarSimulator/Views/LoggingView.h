@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LoggingView.h
 //  BloodSugarSimulator
 //
 //  Created by Kaushal Kantawala on 8/9/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface LoggingView : UIView
 
 @end
-
