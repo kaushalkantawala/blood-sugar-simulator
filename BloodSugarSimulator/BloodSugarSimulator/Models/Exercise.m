@@ -7,12 +7,18 @@
 //
 
 #import "Exercise.h"
+#import "AppDefines.h"
 
 @implementation Exercise
 
-- (float) bloodSugarChangePerMinForExerciseType:(NSString *)exerciseType
+- (instancetype) initWithExerciseName:(NSString *)exerciseName andExerciseIndex:(float)exerciseIndex
 {
-    return 0.0;
+    self = [super init];
+    
+    _exerciseName = exerciseName;
+    self.bloodSugarChangePerMinute = exerciseIndex/MINS_PER_HOUR;
+    
+    return self;
 }
 
 @end

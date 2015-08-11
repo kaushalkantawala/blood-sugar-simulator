@@ -13,4 +13,6 @@
 
 @property (nonatomic, readwrite) NSString* exerciseName;
 
+- (instancetype) initWithExerciseName:(NSString *)exerciseName andExerciseIndex:(float)exerciseIndex;
+
 @end

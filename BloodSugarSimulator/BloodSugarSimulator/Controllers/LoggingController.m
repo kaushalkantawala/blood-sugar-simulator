@@ -43,7 +43,24 @@
 
 - (void) logExercise:(NSString *)exerciseType atTime:(NSDate *)time forPerson:(Person *)person
 {
-
+    NSMutableDictionary* exerciseTypeItem = nil;
+    
+    for (exerciseTypeItem in _exerciseTypes)
+    {
+        NSLog(@"Exercise: %@",[exerciseTypeItem valueForKey:@"Exercise"]);
+        
+        if ([(NSString *)[exerciseTypeItem valueForKey:@"Exercise"] isEqualToString:exerciseType])
+            break;
+    }
+    
+    // Check if exercise type is not found
+    
+    float EI = [[exerciseTypeItem valueForKey:@"Exercise Index"] floatValue];
+    
+    Exercise* exercise = [[Exercise alloc] initWithExerciseName:exerciseType andExerciseIndex:EI];
+    
+    [person logExercise:exercise atTime:time];
+    
 }
 
 

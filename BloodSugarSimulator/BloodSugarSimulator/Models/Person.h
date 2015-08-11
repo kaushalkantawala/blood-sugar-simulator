@@ -18,7 +18,9 @@
 @property (nonatomic, assign) BOOL influenceOfExercise;
 @property (nonatomic, readwrite) NSTimer* foodTimer;
 @property (nonatomic, readwrite) NSTimer* exerciseTimer;
-@property (nonatomic, readwrite) NSMutableArray* bloodSugarModifiers;
+@property (nonatomic, readwrite) NSMutableArray* personSugarModifiers;
+@property (nonatomic, readwrite) float bloodSugarLevel;
+@property (nonatomic, readwrite) float glycationLevel;
 
 - (instancetype) initPersonWithName:(NSString *)name atTime:(NSDate *)time;
 - (float) getCurrentBloodSugar:(NSDate *)time;

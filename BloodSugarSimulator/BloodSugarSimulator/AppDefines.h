@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #define MINS_PER_HOUR 60
+#define SECS_PER_HOUR 3600
 
 extern float initialBloodSugar;
 extern float glycationChangePerMinute;

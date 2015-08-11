@@ -23,6 +23,7 @@
 		CD6DF19C1B7817D60061C7A0 /* BloodSugarModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF19B1B7817D60061C7A0 /* BloodSugarModifier.m */; };
 		CD6DF19F1B7822D20061C7A0 /* LoggingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF19E1B7822D20061C7A0 /* LoggingController.m */; };
 		CD6DF1A21B782EDE0061C7A0 /* LoggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1A11B782EDE0061C7A0 /* LoggingView.m */; };
+		CD6DF1A51B7908AC0061C7A0 /* PersonSugarModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1A41B7908AC0061C7A0 /* PersonSugarModifier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		CD6DF19E1B7822D20061C7A0 /* LoggingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggingController.m; path = Controllers/LoggingController.m; sourceTree = "<group>"; };
 		CD6DF1A01B782EDE0061C7A0 /* LoggingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggingView.h; path = Views/LoggingView.h; sourceTree = "<group>"; };
 		CD6DF1A11B782EDE0061C7A0 /* LoggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggingView.m; path = Views/LoggingView.m; sourceTree = "<group>"; };
+		CD6DF1A31B7908AC0061C7A0 /* PersonSugarModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonSugarModifier.h; path = Models/PersonSugarModifier.h; sourceTree = "<group>"; };
+		CD6DF1A41B7908AC0061C7A0 /* PersonSugarModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonSugarModifier.m; path = Models/PersonSugarModifier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				CD6DF18B1B77FF240061C7A0 /* Exercise.m */,
 				CD6DF19A1B7817D60061C7A0 /* BloodSugarModifier.h */,
 				CD6DF19B1B7817D60061C7A0 /* BloodSugarModifier.m */,
+				CD6DF1A31B7908AC0061C7A0 /* PersonSugarModifier.h */,
+				CD6DF1A41B7908AC0061C7A0 /* PersonSugarModifier.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				CD6DF1891B77FF100061C7A0 /* Food.m in Sources */,
 				CD6DF18C1B77FF240061C7A0 /* Exercise.m in Sources */,
 				CD6DF1611B77F7C90061C7A0 /* ViewController.m in Sources */,
+				CD6DF1A51B7908AC0061C7A0 /* PersonSugarModifier.m in Sources */,
 				CD6DF15E1B77F7C90061C7A0 /* AppDelegate.m in Sources */,
 				CD6DF18F1B7802140061C7A0 /* AppDefines.m in Sources */,
 				CD6DF1861B77FEA70061C7A0 /* Person.m in Sources */,
