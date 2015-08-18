@@ -24,6 +24,8 @@
 		CD6DF19F1B7822D20061C7A0 /* LoggingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF19E1B7822D20061C7A0 /* LoggingController.m */; };
 		CD6DF1A21B782EDE0061C7A0 /* LoggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1A11B782EDE0061C7A0 /* LoggingView.m */; };
 		CD6DF1A51B7908AC0061C7A0 /* PersonSugarModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF1A41B7908AC0061C7A0 /* PersonSugarModifier.m */; };
+		CD6DF1A71B7C38D50061C7A0 /* kaushal-2015-08-11.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6DF1A61B7C38D50061C7A0 /* kaushal-2015-08-11.plist */; };
+		CDCAA0131B82B896004BB53C /* kaushal-2015-08-12.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDCAA0121B82B896004BB53C /* kaushal-2015-08-12.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		CD6DF1A11B782EDE0061C7A0 /* LoggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggingView.m; path = Views/LoggingView.m; sourceTree = "<group>"; };
 		CD6DF1A31B7908AC0061C7A0 /* PersonSugarModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonSugarModifier.h; path = Models/PersonSugarModifier.h; sourceTree = "<group>"; };
 		CD6DF1A41B7908AC0061C7A0 /* PersonSugarModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonSugarModifier.m; path = Models/PersonSugarModifier.m; sourceTree = "<group>"; };
+		CD6DF1A61B7C38D50061C7A0 /* kaushal-2015-08-11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kaushal-2015-08-11.plist"; sourceTree = "<group>"; };
+		CDCAA0121B82B896004BB53C /* kaushal-2015-08-12.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kaushal-2015-08-12.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,16 +113,13 @@
 		CD6DF1571B77F7C90061C7A0 /* BloodSugarSimulator */ = {
 			isa = PBXGroup;
 			children = (
+				CDCAA0161B82D3C1004BB53C /* Core */,
+				CDCAA0151B82D2FD004BB53C /* Utilities */,
 				CD6DF17E1B77F8B10061C7A0 /* Models */,
 				CD6DF17F1B77F8BD0061C7A0 /* Views */,
 				CD6DF1801B77F8D00061C7A0 /* Controllers */,
-				CD6DF15C1B77F7C90061C7A0 /* AppDelegate.h */,
-				CD6DF15D1B77F7C90061C7A0 /* AppDelegate.m */,
-				CD6DF15F1B77F7C90061C7A0 /* ViewController.h */,
-				CD6DF1601B77F7C90061C7A0 /* ViewController.m */,
-				CD6DF1621B77F7C90061C7A0 /* Main.storyboard */,
 				CD6DF1651B77F7C90061C7A0 /* Images.xcassets */,
-				CD6DF1671B77F7C90061C7A0 /* LaunchScreen.xib */,
+				CDCAA0141B82D2D4004BB53C /* Resources */,
 				CD6DF1581B77F7C90061C7A0 /* Supporting Files */,
 			);
 			path = BloodSugarSimulator;
@@ -127,12 +128,10 @@
 		CD6DF1581B77F7C90061C7A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD6DF1981B7813680061C7A0 /* exerciseTypes.plist */,
-				CD6DF1961B7812920061C7A0 /* foodItems.plist */,
 				CD6DF1591B77F7C90061C7A0 /* Info.plist */,
 				CD6DF15A1B77F7C90061C7A0 /* main.m */,
-				CD6DF18D1B7802140061C7A0 /* AppDefines.h */,
-				CD6DF18E1B7802140061C7A0 /* AppDefines.m */,
+				CD6DF1A61B7C38D50061C7A0 /* kaushal-2015-08-11.plist */,
+				CDCAA0121B82B896004BB53C /* kaushal-2015-08-12.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -187,6 +186,37 @@
 				CD6DF19E1B7822D20061C7A0 /* LoggingController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CDCAA0141B82D2D4004BB53C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF1621B77F7C90061C7A0 /* Main.storyboard */,
+				CD6DF1671B77F7C90061C7A0 /* LaunchScreen.xib */,
+				CD6DF1981B7813680061C7A0 /* exerciseTypes.plist */,
+				CD6DF1961B7812920061C7A0 /* foodItems.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CDCAA0151B82D2FD004BB53C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF18D1B7802140061C7A0 /* AppDefines.h */,
+				CD6DF18E1B7802140061C7A0 /* AppDefines.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CDCAA0161B82D3C1004BB53C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF15C1B77F7C90061C7A0 /* AppDelegate.h */,
+				CD6DF15D1B77F7C90061C7A0 /* AppDelegate.m */,
+				CD6DF15F1B77F7C90061C7A0 /* ViewController.h */,
+				CD6DF1601B77F7C90061C7A0 /* ViewController.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +302,9 @@
 				CD6DF1641B77F7C90061C7A0 /* Main.storyboard in Resources */,
 				CD6DF1991B7813680061C7A0 /* exerciseTypes.plist in Resources */,
 				CD6DF1691B77F7C90061C7A0 /* LaunchScreen.xib in Resources */,
+				CDCAA0131B82B896004BB53C /* kaushal-2015-08-12.plist in Resources */,
 				CD6DF1661B77F7C90061C7A0 /* Images.xcassets in Resources */,
+				CD6DF1A71B7C38D50061C7A0 /* kaushal-2015-08-11.plist in Resources */,
 				CD6DF1971B7812920061C7A0 /* foodItems.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +530,7 @@
 				CD6DF17A1B77F7CA0061C7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD6DF17B1B77F7CA0061C7A0 /* Build configuration list for PBXNativeTarget "BloodSugarSimulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +539,7 @@
 				CD6DF17D1B77F7CA0061C7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

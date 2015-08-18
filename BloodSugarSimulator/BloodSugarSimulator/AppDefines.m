@@ -9,6 +9,7 @@
 #import "AppDefines.h"
 
 float initialBloodSugar = 80.0;
+float initialGlycationLevel = 0.0;
 float glycationChangePerMinute = 1.0;
 float baseBloodSugarForGlycation = 150.0;
 float durationForChangeInBloodSugarFromFood = 120.0; // in minutes

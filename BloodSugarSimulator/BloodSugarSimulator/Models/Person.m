@@ -18,10 +18,15 @@
     self = [super init];
     
     self.name = name;
-    self.initializationTime = time;
+    self.lastCalculationTime = time;
     
     _personSugarModifiers = [NSMutableArray new];
-    _bloodSugarLevel = 80.0;
+    _activeSugarModifiers = [NSMutableArray new];
+    _bloodSugarLevel = initialBloodSugar;
+    _glycationLevel = initialGlycationLevel;
+    
+    self.influenceOfExercise = NO;
+    self.influenceOfFood = NO;
     
     return self;
 }
@@ -61,38 +66,76 @@
 
 #pragma mark internal routines
 
-- (float) calculateBloodSugar:(NSDate *)time
+- (void) adjustActiveModifiers:(NSDate *) time
 {
+    PersonSugarModifier* modifierItem = nil;
+    
+    NSMutableArray* iterableActiveModifiers = [NSMutableArray arrayWithArray:_activeSugarModifiers];
+    NSMutableArray* iterablePersonSugarModifiers = [NSMutableArray arrayWithArray:_personSugarModifiers];
+    
+    for (modifierItem in iterableActiveModifiers)
+    {
+        if ([time timeIntervalSinceDate:modifierItem.expiryTS] >= 0)
+        {
+            [_activeSugarModifiers removeObject:modifierItem];
+        }
+    }
+    
+    for (modifierItem in iterablePersonSugarModifiers)
+    {
+        if (([time timeIntervalSinceDate:modifierItem.loggingTS] >= 0) &&
+            ([modifierItem.expiryTS timeIntervalSinceDate:time] > 0))
+        {
+            [_activeSugarModifiers addObject:modifierItem];
+            [_personSugarModifiers removeObject:modifierItem];
+        }
+    }
+}
+
+- (void) calculateBloodSugar:(NSDate *) time
+{
+    [self adjustActiveModifiers:time];
+    
     PersonSugarModifier* modifierItem;
     
-    for (modifierItem in _personSugarModifiers)
+    float secsPastLastCalculation = [time timeIntervalSinceDate:_lastCalculationTime];
+    
+    float minsPastLastCalculation = secsPastLastCalculation > 0 ? secsPastLastCalculation/60 : 0;
+    
+    if ([_activeSugarModifiers count] == 0)
     {
-//      Check if current time is after expiryTS. If yes, calculate resulting bloodSugar change from modifier
-        if (modifierItem.expiryTS > time)
+        _bloodSugarLevel -= 1 * minsPastLastCalculation;
+        
+        if (_bloodSugarLevel < 80)
+        {
+            _bloodSugarLevel = 80;
+        }
+    }
+    else
+    {
+        for (modifierItem in _activeSugarModifiers)
         {
             if ([modifierItem.modifier isKindOfClass:[Food class]])
             {
                 Food* foodItem = (Food *)modifierItem.modifier;
-                _bloodSugarLevel += foodItem.bloodSugarChangePerMinute*MINS_PER_HOUR*2;
+                _bloodSugarLevel += foodItem.bloodSugarChangePerMinute * minsPastLastCalculation;
             }
             else if ([modifierItem.modifier isKindOfClass:[Exercise class]])
             {
                 Exercise* exerciseItem = (Exercise *)modifierItem.modifier;
-                _bloodSugarLevel -= exerciseItem.bloodSugarChangePerMinute*MINS_PER_HOUR;
+                _bloodSugarLevel -= exerciseItem.bloodSugarChangePerMinute * minsPastLastCalculation;
             }
-        }
-        else
-//      Calculate current rate of change of blood sugar per min
-        {
-            
         }
     }
     
-}
-
-- (float) calculateGlycation:(NSDate *)time
-{
-    return 0.0;
+    if (_bloodSugarLevel >= 150)
+    {
+        _glycationLevel += minsPastLastCalculation * glycationChangePerMinute;
+    }
+    
+    NSLog (@"Time: %@  Blood Sugar: %f  Glycation: %f",time,_bloodSugarLevel,_glycationLevel);
+    
+    _lastCalculationTime = time;
 }
 
 @end

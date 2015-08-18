@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Person.h"
 #import "LoggingController.h"
 
 @interface AppDelegate ()
@@ -49,14 +48,10 @@
 
 - (void) testWithPersonAndModifiers
 {
-    Person* p = [[Person alloc] initPersonWithName:@"Kaushal" atTime:[NSDate date]];
-//    [p getCurrentBloodSugar:[NSDate dateWithTimeInterval:600 sinceDate:p.initializationTime]];
-    
     LoggingController* controller = [[LoggingController alloc] init];
     [controller loadView];
     [controller create];
-    
-    [controller logFood:@"Gatorade" atTime:[NSDate dateWithTimeInterval:1200 sinceDate:p.initializationTime] forPerson:p];
+    [controller displayBloodSugarLevels];
 }
 
 @end

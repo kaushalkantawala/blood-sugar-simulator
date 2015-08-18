@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Type</key>
+		<string>Food</string>
+		<key>Name</key>
+		<string>Lentils, average</string>
+		<key>LoggingTS</key>
+		<date>2015-08-12T02:55:08Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Food</string>
+		<key>Name</key>
+		<string>Cashews, salted</string>
+		<key>LoggingTS</key>
+		<date>2015-08-11T22:34:27Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Exercise</string>
+		<key>Name</key>
+		<string>Squats</string>
+		<key>LoggingTS</key>
+		<date>2015-08-12T00:35:36Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Exercise</string>
+		<key>Name</key>
+		<string>Walking</string>
+		<key>LoggingTS</key>
+		<date>2015-08-11T21:31:59Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Food</string>
+		<key>Name</key>
+		<string>Baked beans, average</string>
+		<key>LoggingTS</key>
+		<date>2015-08-11T19:30:40Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Food</string>
+		<key>Name</key>
+		<string>Brown rice, average</string>
+		<key>LoggingTS</key>
+		<date>2015-08-11T19:28:45Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Food</string>
+		<key>Name</key>
+		<string>Lucozade®, original (sparkling glucose drink)</string>
+		<key>LoggingTS</key>
+		<date>2015-08-11T17:26:46Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Food</string>
+		<key>Name</key>
+		<string>Waffles, Aunt Jemima (Quaker Oats)</string>
+		<key>LoggingTS</key>
+		<date>2015-08-11T15:22:34Z</date>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Exercise</string>
+		<key>Name</key>
+		<string>Bench press</string>
+		<key>LoggingTS</key>
+		<date>2015-08-11T16:00:01Z</date>
+	</dict>
+</array>
+</plist>

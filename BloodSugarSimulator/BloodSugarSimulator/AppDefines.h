@@ -10,8 +10,10 @@
 
 #define MINS_PER_HOUR 60
 #define SECS_PER_HOUR 3600
+#define SECS_PER_MIN 60
 
 extern float initialBloodSugar;
+extern float initialGlycationLevel;
 extern float glycationChangePerMinute;
 extern float baseBloodSugarForGlycation;
 extern float durationForChangeInBloodSugarFromFood;
